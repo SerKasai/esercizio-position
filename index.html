@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position e z-index</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     1
     <div class="container live-1 relative">
+        <div class="red rect w-lg relative">
+            <div class="blue square w-xs"></div>
+            <div class="green square w-xs absolute"></div>
+        </div>
     </div>
 
     2
-    <div class="container live-2">
+    <div class="container live-2 relative"> 
+        <div class="red square w-lg relative">
+            <div class="blue square"></div>
+            <div class="blue square absolute"></div>
+            <div class="blue square absolute"></div>
+            <div class="green square absolute"></div>
     </div>
 
     3

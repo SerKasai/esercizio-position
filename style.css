@@ -45,7 +45,7 @@ body {
      background-color: purple;
  }
 
- .rect.square {
+ .rect, .square {
      width: 100px;
  }
 
@@ -67,4 +67,24 @@ body {
 
 .w-xl {
     width: 900px;
+}
+
+.live-1 .square.green {
+    bottom: 0;
+    left: 100%;
+}
+
+.live-2 .square.blue:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+
+.live-2 .square.blue:nth-child(3) {
+    bottom: 0;
+    right: 0;
+}
+
+.live-2 .square.green {
+    bottom: 50px;
+    right: 50px
 }
