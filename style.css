@@ -88,3 +88,21 @@ body {
     bottom: 50px;
     right: 50px
 }
+
+.live-3 .square.blue {
+    display: inline-block;
+}
+
+.live-3 .square.red:last-child {
+    bottom: 0;
+    right: 0;
+}
+
+.live-3 .square.blue:last-child .square.red:last-child {
+    left: 10px;
+}
+
+.live-4 .fixed {
+    top: 0;
+    right: 0;
+}
